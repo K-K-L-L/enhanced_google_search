@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="enhanced_google_search",
-    version="0.1",
+    version="0.2",
     description="An enhanced google search library",
     author="KKLL",
     url="https://github.com/K-K-L-L/google_search_py",
