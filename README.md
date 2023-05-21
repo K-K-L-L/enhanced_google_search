@@ -1,8 +1,13 @@
 # enhanced_google_search
 An enhanced google search library
 
+**The New PyPi Project: https://pypi.org/project/enhanced-google-search/**
+
 Fixed the language issue in the original repo: https://github.com/cj-praveen/googlesearch.py so you can search with any language google.com support
 
+```py
+pip install enhanced-google-search
+```
 
 Examples:
 ```py
