@@ -38,4 +38,4 @@ results = search("Python", num = 2) # Number of results
 print(results)
 ```
 
-**Discord: KKLL#9777**
+**Discord: imacoolhuman**
