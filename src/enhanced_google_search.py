@@ -8,6 +8,8 @@ def search(query: str, lang: str = "en", num: int = 10, headers: Union[Dict[str,
 
     results: List[Union[dict, str]] = []
 
+    headers["Accept-Charset"] = "utf-8"
+
     base_url: str = f"https://www.google.com/search?q={query}&num=30&hl={lang}"
 
     page: str = httpx.get(base_url, headers=headers).text
@@ -26,3 +28,4 @@ def search(query: str, lang: str = "en", num: int = 10, headers: Union[Dict[str,
         })
 
     return results[:num if len(results) > num else len(results)]
+
